@@ -86,10 +86,8 @@ body {
 }
 .table-column {
   width: 300px;
-  padding-top: 7
-  px;
-  padding-bottom: 7
-  px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -176,6 +174,9 @@ body {
     position: static;
     margin-bottom: 30px;
   }
+  .rocketp {
+    text-align: center;
+  }
   .table {
     margin-bottom: 0px;
   }
@@ -190,6 +191,8 @@ body {
   }
   .footer {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
   }
   .main {
     padding-top: 50px;
@@ -198,5 +201,17 @@ body {
     margin-top: 0px;
     padding: 0;
     padding-bottom: 0;
+  }
+  .table-column {
+    font-size: 13px;
+  }
+  .video {
+    max-height: 300px;
+  }
+  .main {
+    padding-bottom: 0px;
+  }
+  .main .title {
+    font-size: 50px;
   }
 }
